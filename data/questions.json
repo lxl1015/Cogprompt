@@ -1,0 +1,470 @@
+[
+    {
+        "student_id": 1,
+        "question": "Linux 和 Windows 的主要区别是什么？为什么开发者更喜欢用 Linux？"
+    },
+    {
+        "student_id": 2,
+        "question": "什么是终端？它和 Shell 是同一个东西吗？"
+    },
+    {
+        "student_id": 3,
+        "question": "pwd 命令到底是做什么的？什么时候会用到？"
+    },
+    {
+        "student_id": 4,
+        "question": "cd 和 ls 有什么常见用法？为什么有时候 cd 不起作用？"
+    },
+    {
+        "student_id": 5,
+        "question": "rm -rf 命令为什么这么危险？它真的会把整个系统删掉吗？"
+    },
+    {
+        "student_id": 6,
+        "question": "chmod 的三组数字分别代表什么意思？比如 755 是怎么来的？"
+    },
+    {
+        "student_id": 7,
+        "question": "如何给一个脚本只读权限但不给执行权限？"
+    },
+    {
+        "student_id": 8,
+        "question": "sudo 和 su 有什么区别？什么时候应该用 sudo？"
+    },
+    {
+        "student_id": 9,
+        "question": "为什么普通用户不能修改某些文件？权限是怎么控制的？"
+    },
+    {
+        "student_id": 10,
+        "question": "为什么 root 用户可以做任何事情？root 的权限机制是怎样的？"
+    },
+    {
+        "student_id": 12,
+        "question": "相对路径和绝对路径有什么区别？什么时候用哪个？"
+    },
+    {
+        "student_id": 13,
+        "question": "软链接和硬链接有什么区别？什么时候应该用硬链接？"
+    },
+    {
+        "student_id": 14,
+        "question": "为什么我创建的文件不在当前目录里？是不是我路径理解错了？"
+    },
+    {
+        "student_id": 15,
+        "question": "mnt 和 media 的区别是什么？它们都用来挂载吗？"
+    },
+    {
+        "student_id": 16,
+        "question": "什么是 Shell 脚本？我能用它自动化哪些事情？"
+    },
+    {
+        "student_id": 17,
+        "question": "for 循环在 Shell 里怎么写？和 Python 有区别吗？"
+    },
+    {
+        "student_id": 19,
+        "question": "Shell 脚本里变量为什么不能像 Python 那样写？"
+    },
+    {
+        "student_id": 20,
+        "question": "为什么我的 Shell 脚本执行时提示 Permission denied？"
+    },
+    {
+        "student_id": 21,
+        "question": "apt 和 yum 是一样的吗？Linux 为什么有不同的包管理器？"
+    },
+    {
+        "student_id": 22,
+        "question": "如何安装一个本地 .deb 文件？dpkg 和 apt 安装有什么区别？"
+    },
+    {
+        "student_id": 23,
+        "question": "为什么有时候 apt update 之后才能 apt install？"
+    },
+    {
+        "student_id": 24,
+        "question": "pip 和 apt 的区别是什么？安装 Python 库用哪个？"
+    },
+    {
+        "student_id": 25,
+        "question": "编译软件和直接安装软件包有什么区别？"
+    },
+    {
+        "student_id": 26,
+        "question": "什么是内核？为什么 Linux 可以自己编译内核？"
+    },
+    {
+        "student_id": 27,
+        "question": "更新内核会把原来的系统弄坏吗？"
+    },
+    {
+        "student_id": 28,
+        "question": "如何查看当前系统使用的是哪个内核版本？"
+    },
+    {
+        "student_id": 29,
+        "question": "编译内核后需要手动配置哪些参数？"
+    },
+    {
+        "student_id": 30,
+        "question": "什么是模块化内核？比 monolithic 内核好在哪里？"
+    },
+    {
+        "student_id": 31,
+        "question": "top 命令中的 load average 是什么意思？越大越好吗？"
+    },
+    {
+        "student_id": 32,
+        "question": "如何查看 Linux 系统的 CPU 使用情况？"
+    },
+    {
+        "student_id": 33,
+        "question": "free -h 的 Buff 和 Cache 是什么？为什么总觉得内存不够？"
+    },
+    {
+        "student_id": 34,
+        "question": "如何找到占用磁盘空间最大的目录？"
+    },
+    {
+        "student_id": 35,
+        "question": "系统变慢时应该优先检查哪些指标？"
+    },
+    {
+        "student_id": 36,
+        "question": "如何给 Linux 配置静态 IP？"
+    },
+    {
+        "student_id": 37,
+        "question": "什么是 SSH？如何远程登录服务器？"
+    },
+    {
+        "student_id": 38,
+        "question": "为什么我的服务器 ping 不通外网？可能哪些地方配置错了？"
+    },
+    {
+        "student_id": 39,
+        "question": "如何查看当前系统监听了哪些端口？"
+    },
+    {
+        "student_id": 40,
+        "question": "什么是防火墙规则？iptables 和 ufw 有什么区别？"
+    },
+    {
+        "student_id": 41,
+        "question": "vim 为什么那么难用？我怎么保存并退出？"
+    },
+    {
+        "student_id": 42,
+        "question": "gdb 如何调试一个 C 程序？最基本的命令有哪些？"
+    },
+    {
+        "student_id": 43,
+        "question": "makefile 是做什么的？为什么编译项目离不开它？"
+    },
+    {
+        "student_id": 44,
+        "question": "strace 可以用来干什么？我怎么查看系统调用？"
+    },
+    {
+        "student_id": 45,
+        "question": "如何查看一个程序的依赖库？ldd 是怎么工作的？"
+    },
+    {
+        "student_id": 46,
+        "question": "Linux 默认使用 bash，zsh 有什么优点？"
+    },
+    {
+        "student_id": 47,
+        "question": "history 命令能查看之前所有的输入吗？会泄露密码吗？"
+    },
+    {
+        "student_id": 48,
+        "question": "如何把长命令做成别名 alias？"
+    },
+    {
+        "student_id": 49,
+        "question": "管道符号 | 是如何让命令组合在一起的？"
+    },
+    {
+        "student_id": 50,
+        "question": "Shell 中的重定向 > 和 >> 有什么区别？"
+    },
+    {
+        "student_id": 51,
+        "question": "系统启动时为什么会加载这么多服务？哪些可以关掉？"
+    },
+    {
+        "student_id": 52,
+        "question": "systemctl enable 和 start 的区别是什么？"
+    },
+    {
+        "student_id": 53,
+        "question": "journalctl 日志怎么看？怎么过滤错误信息？"
+    },
+    {
+        "student_id": 54,
+        "question": "crontab 怎么设置定时任务？为什么我的任务没执行？"
+    },
+    {
+        "student_id": 55,
+        "question": "如何排查系统无缘无故重启的问题？"
+    },
+    {
+        "student_id": 56,
+        "question": "scp 和 rsync 有什么区别？传文件哪个更快？"
+    },
+    {
+        "student_id": 57,
+        "question": "如何搭建一个简单的 Web 服务器？"
+    },
+    {
+        "student_id": 58,
+        "question": "查看端口占用为什么用 netstat？ss 是更好的选择吗？"
+    },
+    {
+        "student_id": 59,
+        "question": "DNS 是怎么工作的？为什么要配置 resolv.conf？"
+    },
+    {
+        "student_id": 60,
+        "question": "如何让 Linux 开机自动启动一个服务？"
+    },
+    {
+        "student_id": 61,
+        "question": "Linux 文件权限的 r w x 分别是什么意思？"
+    },
+    {
+        "student_id": 62,
+        "question": "为什么有的目录别人可以进入但不能查看？"
+    },
+    {
+        "student_id": 63,
+        "question": "如何添加一个新用户并赋予 sudo 权限？"
+    },
+    {
+        "student_id": 64,
+        "question": "chown 和 chmod 的区别是什么？"
+    },
+    {
+        "student_id": 65,
+        "question": "umask 是什么？为什么会影响新文件的权限？"
+    },
+    {
+        "student_id": 66,
+        "question": "为什么 Linux 一切皆文件？这是什么意思？"
+    },
+    {
+        "student_id": 67,
+        "question": "proc 目录是干什么的？里面的文件能修改吗？"
+    },
+    {
+        "student_id": 69,
+        "question": "如何查看磁盘分区情况？"
+    },
+    {
+        "student_id": 70,
+        "question": "df 和 du 的结果为什么不一致？"
+    },
+    {
+        "student_id": 71,
+        "question": "Shell 为什么需要加 #!/bin/bash？不加能运行吗？"
+    },
+    {
+        "student_id": 72,
+        "question": "Shell 脚本如何接收命令行参数？"
+    },
+    {
+        "student_id": 73,
+        "question": "如何在 Shell 脚本里捕获错误？"
+    },
+    {
+        "student_id": 74,
+        "question": "函数在 Shell 脚本里怎么定义？"
+    },
+    {
+        "student_id": 75,
+        "question": "while 循环什么时候用？有什么典型例子？"
+    },
+    {
+        "student_id": 76,
+        "question": "yum 的源怎么切换到国内镜像？"
+    },
+    {
+        "student_id": 77,
+        "question": "apt upgrade 和 apt full-upgrade 有什么区别？"
+    },
+    {
+        "student_id": 78,
+        "question": "如何卸载软件并清理残留配置？"
+    },
+    {
+        "student_id": 79,
+        "question": "snap 和 apt 有什么区别？"
+    },
+    {
+        "student_id": 80,
+        "question": "源码安装软件为什么那么慢？"
+    },
+    {
+        "student_id": 81,
+        "question": "如何启用 Linux 内核模块？"
+    },
+    {
+        "student_id": 82,
+        "question": "内核参数在哪里修改？需要重启吗？"
+    },
+    {
+        "student_id": 83,
+        "question": "如何裁剪一个最小化 Linux 内核？"
+    },
+    {
+        "student_id": 84,
+        "question": "initrd 是干什么的？"
+    },
+    {
+        "student_id": 85,
+        "question": "内核崩溃（kernel panic）通常怎么排查？"
+    },
+    {
+        "student_id": 86,
+        "question": "如何查看系统最耗 CPU 的进程？"
+    },
+    {
+        "student_id": 87,
+        "question": "iostat 的 iowait 是什么意思？"
+    },
+    {
+        "student_id": 88,
+        "question": "进程卡死时用什么命令强制结束？"
+    },
+    {
+        "student_id": 89,
+        "question": "如何分析系统启动时间过长的原因？"
+    },
+    {
+        "student_id": 90,
+        "question": "perf 工具是做什么用的？"
+    },
+    {
+        "student_id": 91,
+        "question": "如何给服务器添加一个新的网络接口？"
+    },
+    {
+        "student_id": 92,
+        "question": "netplan 配置格式怎么看？"
+    },
+    {
+        "student_id": 93,
+        "question": "如何查看当前机器的公网 IP？"
+    },
+    {
+        "student_id": 94,
+        "question": "如何搭建一个简单的 FTP 服务？"
+    },
+    {
+        "student_id": 95,
+        "question": "如何限制某个服务的网络访问权限？"
+    },
+    {
+        "student_id": 96,
+        "question": "gdb 如何设置断点？"
+    },
+    {
+        "student_id": 97,
+        "question": "如何查看程序的内存使用情况？"
+    },
+    {
+        "student_id": 98,
+        "question": "为什么 makefile 缩进必须用 Tab？"
+    },
+    {
+        "student_id": 99,
+        "question": "如何查看动态库的符号？"
+    },
+    {
+        "student_id": 100,
+        "question": "如何调试一个段错误（segmentation fault）？"
+    },
+    {
+        "student_id": 101,
+        "question": "Shell 里的 $0 $1 是什么意思？"
+    },
+    {
+        "student_id": 102,
+        "question": "如何把脚本运行日志重定向到文件里？"
+    },
+    {
+        "student_id": 103,
+        "question": "为什么我的脚本在 cron 里运行失败但手动运行正常？"
+    },
+    {
+        "student_id": 104,
+        "question": "trap 命令有什么用？"
+    },
+    {
+        "student_id": 105,
+        "question": "如何让脚本并行执行多个任务？"
+    },
+    {
+        "student_id": 106,
+        "question": "怎么查看哪个程序在疯狂写磁盘？"
+    },
+    {
+        "student_id": 107,
+        "question": "systemd 服务如何查看依赖？"
+    },
+    {
+        "student_id": 108,
+        "question": "如何查看系统温度和硬件状态？"
+    },
+    {
+        "student_id": 109,
+        "question": "swap 是什么？为什么会导致系统变慢？"
+    },
+    {
+        "student_id": 110,
+        "question": "如何提升 Linux 的文件描述符限制？"
+    },
+    {
+        "student_id": 111,
+        "question": "如何排查 SSH 登录特别慢的问题？"
+    },
+    {
+        "student_id": 112,
+        "question": "如何查看网络延迟来源？"
+    },
+    {
+        "student_id": 113,
+        "question": "如何让 Nginx 自动重启并加载新配置？"
+    },
+    {
+        "student_id": 114,
+        "question": "什么是端口转发？如何使用 ssh -L？"
+    },
+    {
+        "student_id": 115,
+        "question": "Docker 和虚拟机有什么区别？"
+    },
+    {
+        "student_id": 116,
+        "question": "如何使用 git diff 查看代码修改？"
+    },
+    {
+        "student_id": 117,
+        "question": "如何使用 grep 在大文件中快速查找文本？"
+    },
+    {
+        "student_id": 118,
+        "question": "如何使用 sed 修改文件内容？"
+    },
+    {
+        "student_id": 119,
+        "question": "文件正在被另一个进程占用，如何知道是哪个进程？"
+    },
+    {
+        "student_id": 120,
+        "question": "为什么 Linux 的日志这么多？哪些是最重要的？"
+    }
+]
